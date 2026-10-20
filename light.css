@@ -1,0 +1,108 @@
+/* Clean light theme. Structure and mockup interactions remain in style.css/app.js. */
+:root{color-scheme:light;--bg:#f5f6f9;--panel:#fff;--panel2:#f8f9fc;--line:#e3e7ee;--text:#253044;--muted:#69758a;--purple:#7153b6;--purple-bg:#f0ebf8;--green:#267657;--amber:#966721;--red:#af504b}
+body{background:var(--bg);color:var(--text)}
+input,textarea,select{background:#fff;border-color:#dce2eb;color:#253044}
+input::placeholder,textarea::placeholder{color:#8b95a6}
+input:focus,textarea:focus,select:focus{outline-color:#a894cf}
+.sidebar{background:#fff;border-right-color:#e3e7ee}
+.brand strong{color:#253044}.brand span{color:#7c8799}
+.workspace{background:#f8f9fc;border-color:#e4e8f0}.workspace-icon{background:#eee9f7;color:#785bb5}
+.section-label{color:#8b95a5}
+.nav-item{color:#657084}.nav-item:hover{background:#f5f3fa;color:#554174}
+.nav-item.active{background:#efeaf8;color:#6948a6}
+.nav-number{border-color:#dce1ea;color:#8a93a4;background:#fff}
+.active .nav-number{background:#e4daf4;color:#7051a8;border-color:#d4c6e8}
+.nav-count{background:#e3d9f1;color:#71519a}
+.sidebar-footer p{color:#7a8597}.sidebar-footer button{color:#748095}
+.avatar{background:#f0ebf7;border-color:#e0d8ec;color:#72579d}
+.topbar{background:#fff;border-color:#e4e8ef}
+.breadcrumb{color:#8a95a5}.breadcrumb b{color:#384357}
+.project-select{color:#4e596e;background:transparent}
+.search{background:#f7f8fa;border-color:#e2e6ee;color:#8a94a5}
+.search input{color:#4f5d71;background:transparent}.search kbd{color:#8b94a3;border-color:#dde2eb;background:#fff}
+.icon-button{color:#788397}.icon-button:hover{background:#f0edf7;color:#6e529f}
+.page-heading h1{color:#263044}.page-heading p{color:#758096}
+.eyebrow{color:#8a6eb4}
+.btn{background:#fff;border-color:#dce2eb;color:#596479;box-shadow:0 1px 2px #24364d04}
+.btn:hover{background:#f6f3fb;border-color:#cdbfe2;color:#62468f}
+.btn.primary{background:#7753b8;border-color:#7753b8;color:#fff;box-shadow:0 3px 8px #68439816}
+.btn.primary:hover{background:#6744a6;border-color:#6744a6;color:#fff}
+.btn.ghost{background:#fff;border-color:#dfe4ec}.btn.danger{color:#a8524b;border-color:#e4c3be;background:#fff8f7}
+.stat{border-color:#e4e8ef;box-shadow:0 2px 5px #27385503}
+.stat-top{color:#727d91}.stat-top svg{color:#9c8eb3}
+.stat-value{color:#28354b}.stat-foot{color:#7f899c}.stat-foot.positive{color:#387b65}
+.stat .mini-track,.track{background:#edf0f5}
+.project-hero{background:linear-gradient(110deg,#f1edf7,#f7f5fa);border-color:#e4dfed;min-height:205px}
+.project-info{position:relative;z-index:1}
+.hero-label{color:#8b7c9e}.project-info h2{color:#3f3452}.project-info p{color:#8a7e97}
+.hero-meta{color:#8d8398}.project-photo{background:#d6e1e8;min-height:205px}
+.project-photo img{filter:none;object-position:center 57%}
+.project-photo::after{background:linear-gradient(90deg,#f6f3fa 0%,#f6f3fa55 16%,transparent 42%)}
+.photo-label{background:#ffffffdc;border-color:#fff9;color:#526174;backdrop-filter:blur(4px)}
+.module-card{background:#fff;border-color:#e3e7ef;box-shadow:0 2px 5px #26354b02}
+.module-card:hover{border-color:#beabd8;box-shadow:0 5px 16px #5a427510}
+.module-icon{background:#f2edf8;border-color:#e5daef;color:#9276b6}
+.module-icon.green{background:#eff7f3;border-color:#d9eade;color:#65957b}
+.module-icon.blue{background:#eff4fa;border-color:#dce5f0;color:#7b94b5}
+.module-icon.amber{background:#faf5ec;border-color:#eee2ca;color:#b18b55}
+.badge{color:#81669c;background:#f0ebf7}
+.badge.done{color:#4d886c;background:#eef7f1}.badge.review{color:#a1793c;background:#faf3e6}
+.badge.todo{color:#8590a2;background:#f1f3f7}.badge.doing{color:#8c6bb1;background:#f3edf9}
+.module-name{color:#384154}.module-name small{color:#9e9cad}
+.module-desc{color:#828b9d}.module-card-bottom{color:#8d95a6}
+.module-card.done .track span{background:#91b69f}.module-card.review .track span{background:#c7ab7f}
+.tiny-avatar{background:#f5f0f9;border-color:#e5dbef;color:#9376b2}
+.card-footer{color:#8e95a5}.count-label{color:#8d95a5}
+.panel{border-color:#e3e7ee;box-shadow:0 2px 5px #27385502}
+.panel-head h2{color:#4a5467}
+.review-callout{background:linear-gradient(135deg,#fffaf1,#fffdf9);border-color:#e8ddc7}
+.review-callout .panel-head,.review-callout .panel-head h2{color:#a18251}
+.review-callout h3{color:#6e5941}.review-callout p{color:#9a8b74}
+.review-callout .btn{background:#f6eedf;border-color:#e5d5b8;color:#907147;box-shadow:none}
+.review-callout .btn:hover{background:#f0e3cd;border-color:#d6be96}
+.deadline{color:#aa987c}
+.task-row{border-top-color:#edf0f5}.task-check{border-color:#d0d7e2;background:#fff}
+.task-check.checked{background:#eff7f1;border-color:#a6c8b2;color:#497959}
+.task-row strong{color:#697386}.task-row small{color:#929caf}
+.task-row:hover strong{color:#7654aa}
+.activity:not(:last-child):before{background:#e7e8ee}
+.activity-icon{background:#f3f0f8;color:#a193b4}.activity p{color:#7a8295}.activity small{color:#a0a8b6}
+.demo-note{color:#959daa;border-top-color:#e1e6ee}
+.filter{background:#fff;border-color:#e2e6ee;color:#8791a3}
+.filter.active{border-color:#c8b7e0;background:#f0eaf8;color:#805fa9}
+.tabs{border-color:#dfe4ed}.tab{color:#8992a3}.tab.active{color:#7a58ac;border-bottom-color:#9877c1}
+.workspace-panel{background:#fff;border-color:#e2e7ef;box-shadow:0 2px 6px #27385503}
+.workspace-panel h2{color:#394357}.subtext{color:#7a8598}.field{color:#657087}
+.output{background:#f8f7fc;border-color:#e6dff0;color:#625572}
+.file-row{border-color:#edf0f4}.file-row .file-icon{background:#f3eff9;color:#9274b2}
+.hint{background:#fdf9f0;border-color:#eee2ca;color:#a08a61}
+th{background:#f7f8fb;color:#8993a5}td{border-color:#e7ebf1;color:#5e6b80}
+.total{color:#7555a5}
+.board-column{background:#f1f3f7;border-color:#e2e7ef}.board-column h3{color:#727d91}.board-column h3 span{color:#98a2b1}
+.task-card{background:#fff;border-color:#e1e6ee;box-shadow:0 2px 5px #27385503}
+.task-card:hover{border-color:#bba7d3}.task-card strong{color:#5b6578}.task-card p,.task-card footer{color:#929bad}
+.model-stage{background:radial-gradient(ellipse at 50% 45%,#f0edf5,#fafbfc 75%);border-color:#e5e5ed}
+.model-stage svg ellipse{fill:#d9d8e1;opacity:.3}.model-stage svg text{fill:#9292a6}
+.model-stage .view-caption{color:#9794a9}
+.plan-box{background:#fafbfd;border-color:#e2e6ee}.plan-box h3{color:#7f8599}.plan-box svg pattern path{stroke:#dce2eb}
+.review-check{color:#7d8095}.review-check input{accent-color:#9875bf}
+.schedule-track{background:repeating-linear-gradient(90deg,#f5f6fa 0,#f5f6fa calc(12.5% - 1px),#e5e8f0 calc(12.5% - 1px),#e5e8f0 12.5%)}
+.timeline-slider{accent-color:#9b7bc1}
+.flow-step{border-color:#e9ecf2}.flow-step .flow-number{background:#f5f1fa;border-color:#e2d8ed;color:#9778b6}
+.flow-step strong{color:#647086}.flow-step p{color:#9099aa}.flow-step.passed .flow-number{background:#eef7f1;border-color:#c6e0ce;color:#78a489}
+.checklist li{color:#7f849a}
+.modal-backdrop{background:#27364b35;backdrop-filter:blur(6px)}
+.modal{background:#fff;border-color:#e1e6ee;box-shadow:0 25px 100px #26344b22}
+.modal p{color:#8791a2}.drawer-backdrop{background:#27364b35}.drawer{background:#fff;border-left-color:#e1e6ee}
+.toast{background:#f3edf9;color:#836399;border-color:#e3d7ee;box-shadow:0 8px 35px #4f3c6c16}
+.milestone{color:#8c8da2}.milestone svg{color:#b19ac9}
+.step-path{color:#a0a6b5}.step-path span{color:#aa93c2}
+/* Keep small Thai labels readable on white backgrounds. */
+.section-label,.sidebar-footer p,.sidebar-footer button,.stat-top,.stat-foot,.count-label,.quiet,.module-desc,.module-card-bottom,.card-footer,.task-row small,.activity p,.activity small,.demo-note,.tab,.subtext,.field,.file-row small,.task-card p,.task-card footer,.flow-step p,.checklist li,.modal p,.milestone,.step-path{color:#667287}
+.module-name small,.nav-number,.search kbd{color:#6d788b}
+.project-info p,.hero-meta,.hero-label{color:#776981}
+.badge.done{color:#337054}.badge.review{color:#8c6223}.badge.todo{color:#647084}.badge.doing{color:#78539f}
+.review-callout p,.deadline,.hint{color:#8b713f}
+th{color:#667287}.task-row strong{color:#526076}
+@media(max-width:860px){.mobile-shade.show{background:#23334a40;backdrop-filter:blur(2px)}}
+@media(max-width:600px){.project-hero{min-height:190px}.project-photo{min-height:190px}.project-photo::after{background:linear-gradient(90deg,#f6f3fa,transparent 65%)}}
